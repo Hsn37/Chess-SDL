@@ -1,0 +1,13 @@
+while loop -> handle events -> click
+click -> locate piece, player turn, valid move, then check win
+board
+some mechanism to identify box on click
+
+class piece-> owner, location, overridden method to validate move
+subclasses for each piece
+
+board class -> coords to box, or top left of box
+
+onclick piece, draw a dark overlay on it
+
+movecheck-> gradient, then check if path empty. if xy both same
